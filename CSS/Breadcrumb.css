@@ -1,0 +1,15 @@
+/* Start Breadcrumb Style */
+.breadcrumb {
+    margin: 3rem 0;
+}
+
+.breadcrumb__list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb__link {
+    margin: 0 2rem;
+    font-size: 1.2rem;
+}
+/* Finish Breadcrumb Style */

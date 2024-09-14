@@ -1,0 +1,40 @@
+/* START FOOTER STYLE*/
+
+.footer-widgets__item {
+    margin-top: 3rem;
+}
+
+.footer-widgets__right {
+    width: 250px;
+    margin-top: 3rem;
+}
+
+.footer-widgets__logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 8rem;
+}
+
+.footer-widgets__discription {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    color: #898989;
+}
+
+.footer-widgets__title {
+    color: #898989;
+}
+
+ul.footer-widgets__text {
+    list-style-position: inside;
+    margin-top: 2rem;
+    line-height: 4rem;
+}
+
+.footer-widgets__copyright {
+    margin: 4rem 0;
+    border-top: 1px solid rgba(195, 168, 131, 0.3);
+    padding-top: 4rem;
+}
+
+/* FINISH FOOTER STYLE*/

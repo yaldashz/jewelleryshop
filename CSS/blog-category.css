@@ -1,0 +1,88 @@
+@import "./Variables.css";
+@import './Font.css';
+@import './top_bar.css';
+@import './Navbar.css';
+@import './Defaults.css';
+@import './Footer.css';
+@import './Product-box.css';
+@import './Paganation.css';
+@import './Breadcrumb.css';
+@import './helpers.css';
+
+
+:root {
+    --primery-font: 'Sahel';
+    --primary-color: rgba(222, 211, 200, 0.5);
+    --primary-color2: rgba(118, 96, 76, 0.5);
+    --primary-color3: rgba(62, 56, 51, 0.5);
+    --primary-color4: #c3a883;
+    --primary-gold1: #FFDE2E;
+    --primary-gold2: #FFD700;
+    --primary-gold3: #D1B000;
+    --primary-gold4: #A38A00;
+    --primary-gold5: #756300;
+    --white-color: #fff;
+    --dark-color: black;
+}
+
+/* Start Articles Box Style */
+.articles .container {
+    margin-top: 7rem;
+}
+
+.articles__title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.article__title-discription {
+    font-size: 1.3rem;
+    color: #898989;
+}
+
+.article__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    /* border-bottom: 1px solid var(--primary-color); */
+}
+
+.article-img {
+    width: 100%;
+    height: 300px;
+    border-radius: 1rem;
+}
+
+.article__box-right {
+    padding: 0 1.5rem;
+}
+
+.article-title {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.article-discription {
+    margin-top: 2rem;
+}
+
+.article-discription,
+.article-date {
+    color: #898989;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.article-link {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+
+.article-link:hover {
+    color: var(--primary-color4);
+    font-size: 1.5rem;
+}
+
+
+/* Finish Articles Box Style */

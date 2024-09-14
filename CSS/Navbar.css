@@ -1,0 +1,161 @@
+/* Start Navbar Style */
+
+.main-header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 100;
+    padding: .4rem 0;
+    border-bottom: 2px solid var(--primary-color);
+    background-color: var(--white-color);
+}
+
+
+/* Main Header Right */
+
+.main-header__right {
+    display: flex;
+}
+
+.main-header__menu {
+    display: flex;
+}
+
+.main-header__home {
+    padding-right: 45rem;
+}
+
+.main-header__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    padding: 0 1rem;
+
+}
+
+.main-header__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.main-header__link:hover {
+    color: var(--primary-gold3);
+}
+
+.main-header__link-icon {
+    margin-right: 1rem;
+    color: var(--primary-color2);
+}
+
+/* Start DropDown Style */
+
+.main-header__dropdown {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 7.8rem;
+    left: 0;
+    margin-left: -6px;
+    background-color: var(--white-color);
+    transition: all 200ms ease-in-out;
+    border-bottom: 0.5px solid var(--primary-color);
+    width: 100vw;
+    z-index: 1;
+    /* padding: 1rem 0; */
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+.main-header__dropdown-category {
+    margin: 0 1.5rem;
+    font-size: 1.5rem;
+}
+
+.main-header__dropdown-category:hover {
+    color: var(--primary-gold3);
+}
+
+.main-header__item:hover .main-header__dropdown {
+    opacity: 1;
+    visibility: visible;
+}
+
+.main-header__dropdown-link {
+    display: block;
+    padding: 0.6rem 2rem;
+    font-size: 1.2rem;
+    transition: all 400ms ease;
+}
+
+.main-header__dropdown-link:hover {
+    color: var(--primary-color4)
+}
+
+/* Finish DropDown Style */
+
+/* Main Header Right */
+
+
+/* Main Header Left */
+
+.main-header__left {
+    display: flex;
+    align-items: center;
+}
+
+.main-header__search-btn,
+.main-header__shoppingcart-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .5rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    /* border: 2px solid var(--primary-color2); */
+}
+
+.main-header__search-icon,
+.main-header__cart-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--dark-color);
+}
+
+.main-header__search-icon:hover,
+.main-header__cart-icon:hover {
+    color: var(--primary-color2);
+}
+
+.main-header__profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .5rem;
+    width: 11rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    /* background-color: var(--primary-color); */
+    border: 2px solid var(--primary-color);
+}
+
+.main-header__profile:hover {
+    background-color: var(--primary-color);
+}
+
+.main-header__profile-text {
+    color: var(--dark-color);
+}
+
+
+
+/* Main Header Left */
+
+/* Finish Navbar Style */

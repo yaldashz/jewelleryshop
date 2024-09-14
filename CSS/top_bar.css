@@ -1,0 +1,36 @@
+/*Start Top Bar Style */
+
+.top-bar {
+    color: var(--dark-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.top-bar__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2.7rem ;
+}
+
+.top-bar__left {
+    display: flex;
+}
+
+.top-bar__contactus {
+    transition: all 400ms ease;
+    font-size: 1.2rem;
+}
+
+.top-bar__link {
+    transition: all 400ms ease;
+    font-size: 1.2rem;
+    padding-right: 0.7rem;
+}
+
+.top-bar__instagram-icon,
+.top-bar__whatsapp-icon,
+.top-bar__phone-icon {
+    color: var(--primary-color2);
+    font-size: 1.5rem;
+}
+
+/*Finish Top Bar Style */

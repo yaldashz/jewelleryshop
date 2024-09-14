@@ -1,0 +1,123 @@
+@import "./Variables.css";
+@import './Font.css';
+@import './top_bar.css';
+@import './Navbar.css';
+@import './Defaults.css';
+@import './Footer.css';
+@import './Product-box.css';
+@import './Paganation.css';
+@import './Breadcrumb.css';
+@import './helpers.css';
+@import './articles-box.css';
+
+
+:root {
+    --primery-font: 'Sahel';
+    --primary-color: rgba(222, 211, 200, 0.5);
+    --primary-color2: rgba(118, 96, 76, 0.5);
+    --primary-color3: rgba(62, 56, 51, 0.5);
+    --primary-color4: #c3a883;
+    --primary-gold1: #FFDE2E;
+    --primary-gold2: #FFD700;
+    --primary-gold3: #D1B000;
+    --primary-gold4: #A38A00;
+    --primary-gold5: #756300;
+    --white-color: #fff;
+    --dark-color: black;
+}
+
+.articles {
+    margin-top: 4rem;
+}
+
+.article__img {
+    width: 100%;
+    max-height: 500px;
+    padding-top: 16px;
+}
+
+.article__title {
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.article__header {
+    display: flex;
+    align-items: center;
+    
+}
+
+.article-header__item {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 10rem 2rem;
+    color: #898989;
+}
+
+.article-header__text {
+    color: #898989;
+}
+
+.article-header__icon {
+    margin-left: 0.5rem;
+}
+
+.article-read {
+    background-color: rgba(222, 211, 200, 0.2);
+    margin: 2rem 0;
+    padding: 2rem 2rem 2rem 0;
+    border-radius: 1rem;
+}
+
+.article-read__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.article-read__list{
+    line-height: 3rem;
+    margin-top: 2rem;
+}
+
+.article__product-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-box {
+    width: 300px;
+    height: 450px;
+}
+
+.article-section__title {
+    font-size: 3rem;
+}
+
+/* Start Sidebar Style */
+.articles-info {
+    box-shadow: 0 0 25px rgba(168, 172, 185, 0.2);
+    padding: 2rem 3rem;
+    margin-top: 1.5rem;
+}
+
+
+.sidebar-articles__list {
+    margin-top: 3rem;
+}
+
+.sidebar-articles__item {
+    line-height: 3.5rem;
+    list-style-position: inside;
+}
+/* Finish Sidebar Style */
+
+
+/* Start Helper Classes */
+
+.paragraph {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+/* Finish Helper Classes */

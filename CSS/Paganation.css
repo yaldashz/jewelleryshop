@@ -1,0 +1,19 @@
+.product-paganation__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.product-paganation__item {
+    margin-left: 3rem;
+    font-size: 1.2rem;
+}
+
+.product-paganation__link--active {
+    color: var(--primary-color4);
+}
+
+.product-paganation__link:hover {
+    color: var(--primary-color4);
+}

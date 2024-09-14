@@ -1,0 +1,33 @@
+/* Start Helper Class */
+
+.title {
+    font-size: 1.7rem;
+    color: black;
+    /* font-weight: bold; */
+    line-height: 1.2;
+    position: relative;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    right: -1rem;
+    width: 0.4rem;
+    height: 4.4rem;
+    background-color: rgba(195, 168, 131, 0.3);
+    border-radius: 0.5rem;
+    /* transform: rotate(8deg); */
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 250px;
+    height: 50%;
+    background-color: rgba(195, 168, 131, 0.2);
+}
+
+/* Finish Helper Class */
